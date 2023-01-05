@@ -28,7 +28,7 @@ $('document').ready(function () {
         $('section.places').append(`<article>
           <div class="title_box">
             <h2>${places[i].name}</h2>
-            <div class="price_by_night">${places[i].price_by_night}</div>
+            <div class="price_by_night">$${places[i].price_by_night}</div>
           </div>
           <div class="information">
             <div class="max_guest">${places[i].max_guest}${places[i].max_guest > 1 ? ' Guests' : ' Guest'} </div>
